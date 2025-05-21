@@ -3,7 +3,7 @@ module github.com/Loopmaas/responder
 go 1.24.3
 
 require (
-	github.com/Loopmaas/loop-err v0.0.4
+	github.com/Loopmaas/loop-err v0.0.8
 	github.com/gin-gonic/gin v1.10.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/otel/trace v1.35.0

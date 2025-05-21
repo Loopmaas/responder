@@ -64,7 +64,7 @@ func GinResponser() gin.HandlerFunc {
 		}
 
 		// Return 404 if no response.
-		notFoundErr := loop_err.New(loop_err.ResponseNotFound, "no response")
+		notFoundErr := loop_err.New(loop_err.NotFound, "no response")
 		c.JSON(http.StatusNotFound, Error(notFoundErr).toGinH(traceID))
 	}
 }
